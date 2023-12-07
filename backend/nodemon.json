@@ -1,13 +1,13 @@
 {
   "env": {
-    "CONNECTION_STRING": "<DATABASE_CONNECTION_STRING>",
+    "CONNECTION_STRING": "mongodb://localhost:27017",
     "PORT": 3002,
     "SECRET_KEY": "<ENCRYPTION_SECRET>",
     "USER": "<USER_EMAIL>",
     "PASS": "<USER_PASSWORD>",
     "HOST": "<SERVICE_PROVIDER>",
     "BASE_URL": "<SERVER_BASE_URL>",
-    "CORS_ORIGIN_URL":"<CLIENT_BASE_URL>"
+    "CORS_ORIGIN_URL":"http://localhost:3000"
   },
   "watch": ["src"],
   "ext": "ts,json",
